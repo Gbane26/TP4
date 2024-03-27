@@ -16,11 +16,11 @@ captures/
 /.idea/gradle.xml
 /.idea/dictionaries
 # External tool builders
-.idea/misc.xml
+/.idea/misc.xml
 # Windows image file caches
 Thumbs.db
 
-.idea/.gitignore
+/.idea/.gitignore
 
 
 *.iml
