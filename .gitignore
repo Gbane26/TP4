@@ -3,7 +3,6 @@
 *.ap_
 *.dex
 *.class
-*.dex
 *.pro
 *.suo
 *.log
