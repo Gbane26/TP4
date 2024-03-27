@@ -7,35 +7,45 @@
 *.suo
 *.log
 *.iws
+
 # Android Studio Navigation editor temp files
 .navigation/
+
 # Android Studio captures folder
 captures/
+
 # Android Studio local build folder
-/.idea/tasks.xml
-/.idea/gradle.xml
-/.idea/dictionaries
-# External tool builders
-/.idea/misc.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/misc.xml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/navEditor.xml
+
 # Windows image file caches
 Thumbs.db
 
-/.idea/.gitignore
-
-
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# System files
 .DS_Store
+
+# Build directories
 /build
-/captures
-.externalNativeBuild
-.cxx
+
+# Gradle
+.gradle
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# ExternalNativeBuild directory
+.externalNativeBuild
+
+# C++ build cache directory
+.cxx
+
+# Application specific
 /app/
