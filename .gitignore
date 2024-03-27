@@ -1,3 +1,29 @@
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+*.dex
+*.pro
+*.suo
+*.log
+*.iws
+# Android Studio Navigation editor temp files
+.navigation/
+# Android Studio captures folder
+captures/
+# Android Studio local build folder
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/dictionaries
+# External tool builders
+.idea/misc.xml
+# Windows image file caches
+Thumbs.db
+
+.idea/.gitignore
+
+
 *.iml
 .gradle
 /local.properties
