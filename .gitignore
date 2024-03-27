@@ -1,54 +1,16 @@
-# Android
-*.apk
-*.ap_
-*.dex
-*.class
-*.dex
-*.pro
-*.suo
-*.log
-*.iws
-# Android Studio Navigation editor temp files
-.navigation/
-# Android Studio captures folder
-captures/
-# Android Studio local build folder
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/caches
-.idea/modules.xml
-# External tool builders
-.idea/misc.xml
-# Gradle
-.gradle/
-build/
-# Local configuration file (sdk path, etc)
-local.properties
-# Windows image file caches
-Thumbs.db
-# OSX files
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 .DS_Store
-# Android Signing
-.keystore
-# Android studio patch files
-.patch
-# Android studio released versions
-*.sh
-# Android studio version specifice files
-.idea/vcs.xml
-.idea/version.txt
-.idea/jarRepositories.xml
-# Gradle Wrapper
-gradle/wrapper/gradle-wrapper.jar
-# User-specific IDE settings
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/dictionaries
-# User-specific global ignore settings
-.idea/.gitignore
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
 /app/
