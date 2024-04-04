@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class DetailActivity extends AppCompatActivity {
 
-    TextView name, distances;
+    TextView name, distances, description;
     ImageView image;
     Button btn_close;
 
@@ -24,17 +24,20 @@ public class DetailActivity extends AppCompatActivity {
         name = findViewById(R.id.nameEdit);
         distances = findViewById(R.id.distance);
         image = findViewById(R.id.imagePlanete);
+        description = findViewById(R.id.description);
 
         btn_close = findViewById(R.id.btn_close);
 
         String nomPlanete = getIntent().getStringExtra("name");
         int distancePlanete = getIntent().getIntExtra("dist", 0);
         int imagePlanete = getIntent().getIntExtra("img", 0);
+        String descriptionPlanete = getIntent().getStringExtra("description");
 
 
         name.setText(nomPlanete);
         distances.setText(Integer.toString(distancePlanete));
         image.setImageResource(imagePlanete);
+        description.setText(descriptionPlanete);
 
         btn_close.setOnClickListener(new View.OnClickListener() {
             @Override

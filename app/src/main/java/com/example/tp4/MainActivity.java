@@ -26,14 +26,14 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     final Planete[] initdata = {
-            new Planete("Mercure", 58, R.drawable.mercure),
-            new Planete("Vénus", 108, R.drawable.venus),
-            new Planete("Terre", 150, R.drawable.terre),
-            new Planete("Mars", 228, R.drawable.mars),
-            new Planete("Jupiter", 778, R.drawable.jupiter),
-            new Planete("Saturne", 1430, R.drawable.saturne),
-            new Planete("Uranus", 2870, R.drawable.uranus),
-            new Planete("Neptune", 4500, R.drawable.neptune)
+            new Planete("Mercure", 58, R.drawable.mercure,"La Mercure est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée ..."),
+            new Planete("Vénus", 108, R.drawable.venus, "La Venus est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée ..."),
+            new Planete("Terre", 150, R.drawable.terre, "La Terre est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée ..."),
+            new Planete("Mars", 228, R.drawable.mars, "La Mars est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée ..."),
+            new Planete("Jupiter", 778, R.drawable.jupiter, "La Jupiter est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée ..."),
+            new Planete("Saturne", 1430, R.drawable.saturne, "La Saturne est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée ..."),
+            new Planete("Uranus", 2870, R.drawable.uranus, "La Uranus est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée ..."),
+            new Planete("Neptune", 4500, R.drawable.neptune, "La Neptune est la planète la plus dense du Système solaire ainsi que la plus grande et massive des quatre planètes telluriques. Son enveloppe rigide — appelée")
 
     };
     private List<Planete> liste;
@@ -95,9 +95,11 @@ public class MainActivity extends AppCompatActivity {
         String nom = planete.getNom();
         int distance = planete.getDistance();
         int image = planete.getImage();
+        String description = planete.getDescription();
         intent.putExtra("name", nom);
         intent.putExtra("dist", distance);
         intent.putExtra("img", image);
+        intent.putExtra("description", description);
         startActivity(intent);
     }
 

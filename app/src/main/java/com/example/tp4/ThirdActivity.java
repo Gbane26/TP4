@@ -57,7 +57,7 @@ public class ThirdActivity extends AppCompatActivity {
                     String description = descriptionEdit.getText().toString();
 
                     // Créer un nouvel objet Planete avec les données saisies
-                    Planete nouvellePlanete = new Planete(nom, annee, R.drawable.terre); // Remplacez R.drawable.default_image par l'image sélectionnée
+                    Planete nouvellePlanete = new Planete(nom, annee, R.drawable.terre, description); // Remplacez R.drawable.default_image par l'image sélectionnée
 
                     // Créer un nouvel Intent pour renvoyer les données à l'activité principale
                     Intent returnIntent = new Intent();
